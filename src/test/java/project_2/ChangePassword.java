@@ -19,7 +19,7 @@ public class ChangePassword extends CodeReusable {
 		driver.findElement(By.xpath(CurrPass));
 		driver.findElement(By.xpath(NewPass));
 		driver.findElement(By.xpath(ConfirmPass));
-		driver.findElement(By.xpath(Save));
+		driver.findElement(By.xpath(Save)).click();
 		
 		assertTrue(true);
 		
